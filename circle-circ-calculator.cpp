@@ -9,7 +9,7 @@ int main(){
     double circ = 2 * PI * radius;
     int circ_i = int(circ);
     std::cout << "The circumfrence is: " << circ_i << "cm" << std::endl;
-    std::cout << "Or: " << 2 * radius << "cm pi\n";
+    std::cout << "Or: " << 2 * radius << "pi cm\n";
     system("pause");
     return 0;
 }
